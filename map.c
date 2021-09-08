@@ -6,7 +6,7 @@
 /*   By: mbueno-g <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/02 16:51:57 by mbueno-g          #+#    #+#             */
-/*   Updated: 2021/09/07 20:13:32 by mbueno-g         ###   ########.fr       */
+/*   Updated: 2021/09/08 17:01:24 by mbueno-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 void	ft_create_map(int fd, t_map *m, char *line)
 {
 	int	i;
-	
+
 	m->map = malloc(sizeof(char *) * (m->height + 1));
 	if (!m->map)
 		printf_error("Malloc failed", NULL);
@@ -79,7 +79,7 @@ void	check_characters(int i, int j, t_map *m, t_charac *c)
 	else if (m->map[i][j] == 'P')
 		c->player++;
 	else if (m->map[i][j] == 'G')
-		ft_enemyadd_back(&m->enemy,ft_enemynew(i,j));
+		ft_enemyadd_back(&m->enemy, ft_enemynew(i, j));
 	if (m->map[i][j] == 'P' && c->player == 1)
 	{
 		c->x_p = i;
@@ -87,7 +87,7 @@ void	check_characters(int i, int j, t_map *m, t_charac *c)
 	}
 }
 
-void check_map_characters(t_map *m, t_charac *c)
+void	check_map_characters(t_map *m, t_charac *c)
 {
 	int		i;
 	int		j;

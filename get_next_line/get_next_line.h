@@ -6,7 +6,7 @@
 /*   By: mbueno-g <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/20 17:31:04 by mbueno-g          #+#    #+#             */
-/*   Updated: 2021/09/02 16:07:17 by mbueno-g         ###   ########.fr       */
+/*   Updated: 2021/09/08 17:53:45 by mbueno-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@
 #  define BUFFER_SIZE 42
 
 # endif
-
 
 char	*get_next_line(int fd);
 size_t	ft_strlen_gnl(const char *str);

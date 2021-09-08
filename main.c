@@ -6,7 +6,7 @@
 /*   By: mbueno-g <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/02 16:51:05 by mbueno-g          #+#    #+#             */
-/*   Updated: 2021/09/07 20:08:05 by mbueno-g         ###   ########.fr       */
+/*   Updated: 2021/09/08 17:44:53 by mbueno-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,8 +64,8 @@ void	game_init(t_map m)
 
 	init_t_game(&g, m);
 	init_t_img(&s, g);
-	g.img = s;
 	g.enemy = m.enemy;
+	g.img = s;
 	mlx_loop_hook(g.mlx_ptr, ft_reset, (void *)&g);
 	mlx_hook(g.win_ptr, 17, 0, ft_exit, (void *)&g);
 	mlx_key_hook(g.win_ptr, ft_key_hook, (void *)&g);
