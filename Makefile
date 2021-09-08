@@ -12,6 +12,7 @@
 
 #MacOs
 LMLX = -lmlx -framework OpenGL -framework AppKit
+LMLX_LINUX = -lmlx -lXext -lX11
 LMLX_PATH = /usr/lib
 IMLX_PATH = /usr/include
 
