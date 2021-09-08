@@ -27,12 +27,12 @@ endif
 NAME = so_long
 CC = gcc
 CFLAGS = -Wall -Werror -Wextra
-CDEBUG = -g3 -fsanitize=address
+CDEBUG =
 RM = rm -f
 KEYCODES =  -D $(ESC) -D $(W) -D $(A) -D $(S) -D $(D)
 
 LIBFT = Libft/libft.a
-SRC_M = main.c map.c game.c init_structs.c error_exit.c enemy_list.c
+SRC_M = main.c map.c game.c init_structs.c error_exit.c enemy.c print_map.c animation.c
 SRC_GNL = get_next_line/get_next_line.c get_next_line/get_next_line_utils.c
 SRC_B =
 
