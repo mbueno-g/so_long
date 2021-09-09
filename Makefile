@@ -6,11 +6,10 @@
 #    By: mbueno-g <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/09/08 18:25:46 by mbueno-g          #+#    #+#              #
-#    Updated: 2021/09/08 19:16:13 by mbueno-g         ###   ########.fr        #
+#    Updated: 2021/09/09 15:42:54 by mbueno-g         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-#MacOs
 LMLX = -lmlx -framework OpenGL -framework AppKit
 LMLX_LINUX = -lmlx -lXext -lX11
 LMLX_PATH = /usr/lib
@@ -19,7 +18,7 @@ IMLX_PATH = /usr/include
 NAME = so_long
 CC = gcc
 CFLAGS = -Wall -Werror -Wextra
-CDEBUG =
+CDEBUG = 
 RM = rm -f
 
 LIBFT = Libft/libft.a
@@ -43,6 +42,8 @@ $(OBJ_GNL): $(SRC_GNL)
 
 Libft:
 	@make all -C Libft/
+
+bonus: all
 
 test: all
 	@read -p "Select map number: " map; \
