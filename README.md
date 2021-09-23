@@ -2,7 +2,7 @@
 
 :books: [Introduction](#introduction)
  
-:world_map: [Concept map](#how-it-works)
+:world_map: [Concept map](#concept-map)
  
 :footprints: [Step by step](#step-by-step)
 
