@@ -13,7 +13,7 @@ WIP 🚧
 :receipt: [Installation](#installation)
 
 
-## :books: Introduction
+## Introduction
 The SoLong proyect aims to learn about:
 - graphic interface (MinilibX)
 - windows, colors, events, textures, sprites...
@@ -58,12 +58,12 @@ The moment one parsing error pops up, the program must exit and return "Error\n"
 - [x] Player must pick all the collectibles to unlock the exit.
 
 
-## :world_map: Concept map
+## Concept map
 Here you can see a map of how my files are organised in case you want to check some of my code :)
 ![concept_map](https://user-images.githubusercontent.com/71781441/132043927-31c57166-0ef5-45bd-ab61-9de53ebc99af.jpg)
 
 
-## :footprints: Step by step
+## Step by step
 
 ### Step 1: Creating the map
 After checking the file, I read the map line by line using get_next_line and saved it in a two-dimensional array (map.c/read_map). Then I checked that everyting is okey with the map at the same time I filled the t_charac struct (map.h/check_map_characters) with some information such as number of collectibles, exits, players...
