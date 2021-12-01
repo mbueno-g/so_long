@@ -1,5 +1,7 @@
 # SO_LONG
 
+WIP 🚧
+
 :books: [Introduction](#introduction)
  
 :world_map: [Concept map](#concept-map)
@@ -86,6 +88,7 @@ They are essential because they generate the infinite loop where all the events 
 
 Basically every time one of the following keys W,S,D,A or arrow keys is pressed the program checks if the player can move to the new tile. If the move is possible the tilemap is updated and one move is added to the score.
 
+<!--
 ### Step 4: Enemies and animations
 
 
@@ -108,5 +111,6 @@ sudo cp libmlx.a /usr/lib
 You can find more detailed information [here](https://github.com/42Paris/minilibx-linux).
 
 ## Manuals
+-->
 
 
