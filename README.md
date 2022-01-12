@@ -21,6 +21,7 @@ The SoLong proyect aims to learn about:
 The result is a 2D game where the player`s goal is to pick up all the collectibles present on the map before escape with the least amount of movements. 
 >In my case, Bob-Omb needs to collect all the flames and capture the flag, but it won't be easy because he may run into some Ice-Ombs who will prevent him from exploding.
 
+![test](https://user-images.githubusercontent.com/71781441/149195140-8a2e728b-6fbd-4688-8adf-201c810dc83a.mov)
 
 
 
@@ -90,14 +91,15 @@ Basically every time one of the following keys W,S,D,A or arrow keys is pressed 
 
 <!--
 ### Step 4: Enemies and animations
-
+-->
 
 ## :joystick: Time to play
 Remember you have to catch the flag with minimal movements and avoid at all costs to be reached by Ice-Omb. RUN!!
 
-(add gifs/videos of the game + makefiles rules to play)
+![test](https://user-images.githubusercontent.com/71781441/149195599-d2109a3e-78b4-4d7a-bc72-29b07c198e11.mov)
 
 
+<!--
 ## 	:receipt: Instalation
 
 ### MiniLibX (Linux)
